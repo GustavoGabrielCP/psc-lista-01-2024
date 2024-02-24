@@ -1,0 +1,7 @@
+programa
+{
+	funcao inicio()
+	{
+		escreva ("Gustavo Gabriel Cardozo Pereira")
+	}
+}

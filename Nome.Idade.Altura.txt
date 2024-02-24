@@ -1,0 +1,9 @@
+programa
+{
+	funcao inicio()
+	{
+		escreva ("Gustavo Gabriel Cardozo Pereira\n")
+		escreva ("22 Anos\n")
+		escreva ("1,72 de altura")
+	}
+}
