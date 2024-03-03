@@ -1,0 +1,29 @@
+programa
+{
+	inclua biblioteca Matematica-->mat
+	real arredondamento
+	funcao inicio ()
+	{
+	escreva("Informe a nota de Pedro:\n")
+	real nPedro
+	leia(nPedro)
+	
+	escreva("Informe a nota de Lucas:\n")
+	real nLucas
+	leia(nLucas)
+	
+	escreva("Informe a nota de Joao:\n")
+	real nJoao
+	leia(nJoao)
+	
+	escreva("Informe a nota de Paulo:\n")
+	real nPaulo
+	leia (nPaulo)
+	
+	real soma = (nPedro + nLucas + nJoao + nPaulo)/4
+	
+	arredondamento = mat.arredondar(soma,2)
+	
+	escreva ("A média dos alunos é: " , arredondamento)
+	}
+}

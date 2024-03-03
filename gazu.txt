@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Matematica-->mat
+	real arredondamento
+	funcao inicio()
+	{
+	real n1,n2
+	escreva("Valor da gasolina:\n")
+	leia(n1)
+	limpa()
+	escreva("Quanto litros serão comprados:\n")
+	leia(n2)
+	limpa()
+	real total = n1*n2 
+	arredondamento = mat.arredondar(total,2)
+	escreva("O total a ser pago será de: ", arredondamento)
+	}
+}

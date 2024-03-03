@@ -1,0 +1,10 @@
+programa
+{
+	funcao inicio()
+	{
+	  escreva("Informe um número:\n")
+      inteiro n1
+	  leia(n1)
+	  escreva("O número informado foi " , n1 , ".")
+	}
+}
